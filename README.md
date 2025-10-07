@@ -84,12 +84,6 @@ minikube service nextjs-service --url
 
 ---
 
-## 🧪 Health Checks
-- **Liveness Probe:** Checks `/` endpoint every 30s  
-- **Readiness Probe:** Checks `/` endpoint every 10s  
-
----
-
 ## 🧠 Notes
 - For private GHCR images, create a `docker-registry` secret and reference it via `imagePullSecrets`.
 - Ensure your workflow token has `packages: write` permission in repository settings.
