@@ -24,8 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <p>This is Next.Js starter page ...</p>
         {children}
+        
       </body>
     </html>
   );
